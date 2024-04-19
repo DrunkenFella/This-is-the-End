@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6745157390750509299}
   - component: {fileID: 6745157390750509298}
   - component: {fileID: 306517071}
+  - component: {fileID: 747635238}
   - component: {fileID: -2758798676755526264}
   m_Layer: 0
   m_Name: MrBean
@@ -115,6 +116,20 @@ MonoBehaviour:
   Target: {fileID: 6745157390750509303}
   xPos: 0
   zPos: 0
+--- !u!114 &747635238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6745157390750509303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2ce44da48a87e42adafe914770904e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Radius: 10
+  Debug_bool: 1
 --- !u!195 &-2758798676755526264
 NavMeshAgent:
   m_ObjectHideFlags: 0
